@@ -29,4 +29,4 @@ python -m streamlit run app.py
 
 ![Home](screenshots/Homepage.png)
 
-![AI Investigation](screenshots/AI Investigation output.png)
+![AI Investigation](screenshots/AIInvestigationoutput.png)
