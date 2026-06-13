@@ -27,6 +27,6 @@ python -m streamlit run app.py
 
 ## Demo
 
-![Home](screenshots/home.png)
+![Home](screenshots/Homepage.png)
 
-![screenshots/AI Investigation output.png)
+![AI Investigation](screenshots/AI Investigation output.png)
