@@ -24,3 +24,9 @@ AI-powered incident troubleshooting assistant built after attending Build Day: A
 pip install -r requirements.txt
 
 python -m streamlit run app.py
+
+## Demo
+
+![Home](screenshots/home.png)
+
+![AI Investigation](screenshots/ai-investigation.png)
