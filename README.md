@@ -11,6 +11,18 @@ AI-powered incident troubleshooting assistant built after attending Build Day: A
 - Local LLM Analysis (Llama 3 via Ollama)
 - Streamlit UI
 
+## Architecture
+
+User Input
+    ↓
+Streamlit UI
+    ↓
+SQLite Incident Memory
+    ↓
+Llama 3 (via Ollama)
+    ↓
+AI Investigation & Resolution
+
 ## Tech Stack
 
 - Python
