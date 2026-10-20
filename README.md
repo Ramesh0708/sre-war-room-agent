@@ -13,15 +13,17 @@ AI-powered incident troubleshooting assistant built after attending Build Day: A
 
 ## Architecture
 
+```
 User Input
     ↓
 Streamlit UI
     ↓
-SQLite Incident Memory
+SQLite Incident Memory (incidents.db)
     ↓
 Llama 3 (via Ollama)
     ↓
 AI Investigation & Resolution
+```
 
 ## Tech Stack
 
@@ -33,9 +35,22 @@ AI Investigation & Resolution
 
 ## Run
 
-pip install -r requirements.txt
-
-python -m streamlit run app.py
+1. Install [Ollama](https://ollama.com/) and pull the model:
+   ```bash
+   ollama pull llama3
+   ```
+2. Install the dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. (Optional) Load sample incidents. This clears any incidents already in `incidents.db`:
+   ```bash
+   python seed_data.py
+   ```
+4. Start the app:
+   ```bash
+   python -m streamlit run app.py
+   ```
 
 ## Demo
 
